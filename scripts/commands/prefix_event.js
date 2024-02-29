@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "KHAN",//Please Don't Change The Credit
   description: "Send Prefix",
   commandCategory: "Help Zone",
-  usePrefix: true,
+  prefix: true,
   usages: "",
   cooldowns: 5,
   dependencies: {
