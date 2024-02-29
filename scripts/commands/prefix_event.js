@@ -1,10 +1,10 @@
 module.exports.config = {
-  name: `${global.config.PREFIX}`,
+  name: "\n",
   version: "3.0.8",
   hasPermssion: 0,
   credits: "KHAN",//Please Don't Change The Credit
   description: "Send Prefix",
-  commandCategory: "Help Zone",
+  category: "Help Zone",
   prefix: true,
   usages: "",
   cooldowns: 5,
