@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Mahir Tahsan",  //Please Don't change the credit
   description: "/ reply",
-  commandCategory: "Islamic Zone",
+  category: "Islamic Zone",
   prefix: true,
   usages: "ig",
   cooldowns: 5,
