@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Dipto",
   description: "All  Video Downloader",
-  commandCategory: "Media",
+  category: "Media",
   prefix: true,
   usages: "[video link]",
   cooldowns: 0
