@@ -6,6 +6,7 @@ module.exports.config = {
   credits: "Mod by John Lester",
   description: "goibot",
   commandCategory: "Extra - Files",
+  prefix: false,
   usages: "Bot / বট",
   cooldowns: 5,
 };
