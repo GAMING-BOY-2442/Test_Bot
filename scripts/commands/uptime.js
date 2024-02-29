@@ -7,8 +7,8 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Marjhun Baylon",
   description: "",
-  usePrefix: "false",
-  commandCategory: "Tools",
+  prefix: "true",
+  category: "Tools",
   cooldowns: 5,
   dependencies: {
     "pidusage": ""
