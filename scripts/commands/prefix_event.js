@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "\n",
+  name: `${global.config.PREFIX}`,
   version: "3.0.8",
   hasPermssion: 0,
   credits: "KHAN",//Please Don't Change The Credit
