@@ -26,5 +26,5 @@ const fs = global.nodemodule["fs-extra"];
 ];
   var callback = () => api.sendMessage({body:`${know}`,attachment: fs.createReadStream(__dirname + "/cache/canvas/photo.png")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/canvas/photo.png"));
   api.setMessageReaction("😛", event.messageID, (err) => {}, true);
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/canvas/photo.jpg")).on("close",() => callback());
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/canvas/photo.png")).on("close",() => callback());
 };
