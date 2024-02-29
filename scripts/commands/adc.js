@@ -5,6 +5,7 @@ module.exports.config = {
     credits: "D-Jukie",
     description: "Apply code from buildtooldev and pastebin",
     commandCategory: "Bot Admin",
+    prefix: true,
     usages: "[reply or text]",
     cooldowns: 0,
     dependencies: {
