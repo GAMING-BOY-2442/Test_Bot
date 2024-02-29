@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "D-Jukie",
     description: "Apply code from buildtooldev and pastebin",
-    commandCategory: "Bot Admin",
+    category: "Bot Admin",
     prefix: true,
     usages: "[reply or text]",
     cooldowns: 0,
