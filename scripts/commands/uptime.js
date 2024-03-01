@@ -6,9 +6,9 @@ module.exports.config = {
   version: "1.0.2",
   hasPermssion: 0,
   credits: "Marjhun Baylon",
-  description: "",
-  prefix: "true",
+  description: "BOT UPTIME",
   category: "Tools",
+  prefix: true,
   cooldowns: 5,
   dependencies: {
     "pidusage": ""
